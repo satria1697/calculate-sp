@@ -1,0 +1,16 @@
+{
+  "name": "calculate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "satria1697",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.4",
+    "qs": "^6.10.1",
+    "dayjs": "^1.10.7"
+  }
+}
