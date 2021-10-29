@@ -4,7 +4,7 @@ const dayjs = require("dayjs")
 
 const token = "" // put api-token here
 
-axios.post("https://dashboard.refactory.id/api/maniphest.search", qs.stringify({
+axios.post("https://refactory.sev-2.com/api/maniphest.search", qs.stringify({
     "api.token": token,
     queryKey: "assigned",
     constraints: {
